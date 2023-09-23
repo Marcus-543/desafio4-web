@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./assets/styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <script type="text/javascript" src="./assets/scripts/script.js"></script>
+
+    <title>Previsão do tempo</title>
+</head>
+<body>
+    <div class="main">
+        <div class="entrada">
+            <input id="cidade" type="text" placeholder="Cidade">
+            <button type="submit" onclick="buscar()"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <h1 id='titulo' class="titulo">Previsão do Tempo</h1>
+        <p class="temperatura" id="temperatura">T°C</p>
+        <div class="tempo">
+            <i id="iconeTempo">☀️</i>
+            <p id="descricao">Descrição</p>
+        </div>
+        <p class="umidade" id="umidade">Umidade</p>
+    </div>
+</body>
+</html>
